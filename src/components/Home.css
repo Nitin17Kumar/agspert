@@ -1,0 +1,150 @@
+/* src/Home.css */
+
+.home-container {
+    padding: 20px;
+    background-color: black;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .add-order {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-order:hover {
+    background-color: #218838;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  /* Home.css */
+
+/* Default styles */
+.home-container {
+  background-color: #fff; /* Light mode background color */
+  color: #333; /* Light mode text color */
+}
+
+.buttons button {
+  background-color: #ddd; /* Light mode button background color */
+  color: #000; /* Light mode button text color */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd; /* Light mode table border color */
+  padding: 8px;
+  text-align: left;
+}
+
+/* Dark mode styles */
+.dark-mode .home-container {
+  background-color: #333; /* Dark mode background color */
+  color: #fff; /* Dark mode text color */
+}
+
+.dark-mode .buttons button {
+  background-color: #555; /* Dark mode button background color */
+  color: #fff; /* Dark mode button text color */
+}
+
+.dark-mode table th,
+.dark-mode table td {
+  border-color: #777; /* Dark mode table border color */
+}
+/* Home.css */
+
+/* Default styles */
+.home-container {
+  background-color: #fff; /* Light mode background color */
+  color: #333; /* Light mode text color */
+}
+
+.buttons button {
+  background-color: #ddd; /* Light mode button background color */
+  color: #000; /* Light mode button text color */
+  border: 1px solid #ccc; /* Light mode button border color */
+}
+
+.table-container {
+  border: 1px solid #ccc; /* Light mode table container border color */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd; /* Light mode table border color */
+  padding: 8px;
+  text-align: left;
+}
+
+/* Dark mode styles */
+.dark-mode .home-container {
+  background-color: #333; /* Dark mode background color */
+  color: #fff; /* Dark mode text color */
+}
+
+.dark-mode .buttons button {
+  background-color: #333; /* Dark mode button background color */
+  color: #fff; /* Dark mode button text color */
+  border: 1px solid #333; /* Dark mode button border color */
+}
+
+.dark-mode .table-container {
+  border: 1px solid #777; /* Dark mode table container border color */
+}
+
+.dark-mode table th,
+.dark-mode table td {
+  border-color: #333; /* Dark mode table border color */
+}
